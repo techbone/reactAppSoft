@@ -1,0 +1,55 @@
+/* .container {
+  display: flex;
+} */
+
+body {
+  background-color: #fbf9f5;
+}
+
+.brazil {
+  font-size: 5rem;
+  color: #7fc142;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-column-gap: -100rem; */
+  padding-left: 15rem;
+  padding-top: 2rem;
+  /* gap: -8rem; */
+}
+
+.grid {
+  position: relative;
+  height: 39rem;
+  width: 23rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+img {
+  height: 40%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.2s linear;
+}
+
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.rio {
+  color: #7fc142;
+  padding-top: 1.5rem;
+  padding-left: 7rem;
+}
+
+.brazil-text {
+  padding: 2rem;
+  color: #b5b5b5;
+}

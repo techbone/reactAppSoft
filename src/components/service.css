@@ -21,9 +21,14 @@
   margin-top: 3rem;
   outline: none;
   border: none;
+  border-radius: 5px;
 }
 
 .services-container > p {
   color: aliceblue;
   font-size: 2rem;
+}
+
+.degree:hover {
+  background-color: blueviolet;
 }
