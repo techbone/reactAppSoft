@@ -32,3 +32,12 @@
 .degree:hover {
   background-color: blueviolet;
 }
+
+@media screen and (max-width: 960px) {
+  .welcome {
+    font-size: 3rem;
+  }
+  .services-container > p {
+    font-size: 1rem;
+  }
+}
