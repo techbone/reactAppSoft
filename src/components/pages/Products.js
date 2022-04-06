@@ -37,7 +37,7 @@ const Products = () => {
               <hr />
               <div className="duration">
                 <h4>DURATION AND DESTINATIONS</h4>
-                <br />
+                {/* <br /> */}
                 <p>2 days - 2 Destination</p>
               </div>
             </div>
@@ -58,7 +58,7 @@ const Products = () => {
               <hr />
               <div className="duration">
                 <h4>DURATION AND DESTINATIONS</h4>
-                <br />
+                {/* <br /> */}
                 <p>2 days - 2 Destination</p>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Products = () => {
               <hr />
               <div className="duration">
                 <h4>DURATION AND DESTINATIONS</h4>
-                <br />
+
                 <p>2 days - 2 Destination</p>
               </div>
             </div>
@@ -87,7 +87,9 @@ const Products = () => {
       </div>
       <Link to="/">
         <span className="button">
-          See all experiences <i className="far fa-play-circle" />
+          <p className="play">
+            See all experiences <i className="far fa-play-circle" />
+          </p>
         </span>
       </Link>
     </>
