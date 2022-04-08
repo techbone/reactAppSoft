@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import "../../App.css";
 import "../SignUp.css";
@@ -21,8 +21,9 @@ const SignUp = () => {
             <label for="Password">Password</label>
             <input type="password" placeholder="******************" />
             <label for="Password">Repeat Password</label>
-            <input type="password2" placeholder="******************" />
+            <input type="password" placeholder="******************" />
           </form>
+
           <input
             className="terms"
             type="checkbox"
