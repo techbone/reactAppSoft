@@ -23,7 +23,6 @@ const SignUp = () => {
             <label for="Password">Repeat Password</label>
             <input type="password" placeholder="******************" />
           </form>
-
           <input
             className="terms"
             type="checkbox"
@@ -33,7 +32,7 @@ const SignUp = () => {
           ></input>
           <label for="vehicle1">
             <span>
-              I agree to the <b>Terms of User</b>
+              I agree to the <b>Terms of User and services</b>
             </span>
           </label>
           <br></br>
