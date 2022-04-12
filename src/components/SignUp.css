@@ -51,13 +51,35 @@ input {
 }
 
 label > span {
-  font-size: 17px;
   margin-left: 10px;
 }
 
-@media screen and (max-width: 760px) {
-  .first-container {
+@media screen and (max-width: 640px) {
+  .home-con {
     display: flex;
     flex-direction: column;
+  }
+  .first-container {
+    width: 100%;
+  }
+  .second-container {
+    width: 100%;
+  }
+  label > span {
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  .vehicle {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .vehicle span {
+    padding: 0;
+    margin: 0;
+  }
+  .vehicle input {
+    padding: 0;
+    margin: 0;
   }
 }

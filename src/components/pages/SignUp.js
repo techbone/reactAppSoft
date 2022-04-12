@@ -23,19 +23,20 @@ const SignUp = () => {
             <label for="Password">Repeat Password</label>
             <input type="password" placeholder="******************" />
           </form>
-          <input
-            className="terms"
-            type="checkbox"
-            id="vehicle1"
-            name="vehicle1"
-            value="Bike"
-          ></input>
-          <label for="vehicle1">
+
+          <label className="vehicle" for="vehicle1">
+            <input
+              className="terms"
+              type="checkbox"
+              id="vehicle1"
+              name="vehicle1"
+              value="Bike"
+            ></input>
             <span>
               I agree to the <b>Terms of User and services</b>
             </span>
           </label>
-          <br></br>
+          <button className="signUp-button"></button>
         </div>
       </div>
     </>

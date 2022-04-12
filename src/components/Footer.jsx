@@ -19,7 +19,7 @@ const Footer = () => {
               type="email"
               name="email"
               className="footer-input"
-              placeholder="Yourr Email"
+              placeholder="Your Email"
             />
             <Button buttonStyle="btn--outline">Subscribe</Button>
           </form>
