@@ -57,6 +57,7 @@ const Footer = () => {
             <Link to="/">Facebook</Link>
             <Link to="/">YouTube</Link>
             <Link to="/">Twitter</Link>
+            <Link to="/">Twitter</Link>
           </div>
         </div>
       </div>
