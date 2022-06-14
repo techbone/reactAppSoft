@@ -59,14 +59,6 @@ const Footer = () => {
             <Link to="/">Twitter</Link>
             <Link to="/">Twitter</Link>
           </div>
-          <div className="footer-link-items">
-            <h2>Social Media</h2>
-            <Link to="/sign-up">Instagram </Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">YouTube</Link>
-            <Link to="/">Twitter</Link>
-            <Link to="/">Twitter</Link>
-          </div>
         </div>
       </div>
       <section className="social-media">
