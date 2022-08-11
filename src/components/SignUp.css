@@ -36,6 +36,16 @@ label {
   padding-top: 2rem;
 }
 
+.signUp-button {
+  height: 3rem;
+  width: 10rem;
+  background-color: green;
+  margin: 2rem;
+  margin-right: 5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 input {
   outline: none;
   border: none;

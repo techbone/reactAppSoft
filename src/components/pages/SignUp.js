@@ -36,7 +36,7 @@ const SignUp = () => {
               I agree to the <b>Terms of User and services</b>
             </span>
           </label>
-          <button className="signUp-button"></button>
+          <button className="signUp-button">SUBMIT</button>
         </div>
       </div>
     </>
